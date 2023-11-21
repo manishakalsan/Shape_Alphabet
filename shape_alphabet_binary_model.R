@@ -217,6 +217,7 @@ meths_acc <- lapply(7:21, function(y){
      
 })
 meths_acc_df <- do.call(rbind, meths_acc)
+write.table(meths_acc_df ,"predicion_tf_shape_binary", sep="\t")
 
 
 
